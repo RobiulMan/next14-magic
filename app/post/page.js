@@ -1,8 +1,8 @@
-export default function Home() {
+
+const HeavyPosts = () => {
   return (
     <div className="py-10 m-20">
-      <h1 className="text-2xl text-center">Home Page</h1>
-
+      <h1 className="text-2xl text-center">Heavy page</h1>
       <p className="mt-10">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. In obcaecati
         libero enim similique adipisci perspiciatis laboriosam est dolor magni,
@@ -11,4 +11,6 @@ export default function Home() {
       </p>
     </div>
   );
-}
+};
+
+export default HeavyPosts;

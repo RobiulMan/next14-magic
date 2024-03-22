@@ -1,7 +1,7 @@
-export default function Home() {
+const Analytic = () => {
   return (
     <div className="py-10 m-20">
-      <h1 className="text-2xl text-center">Home Page</h1>
+      <h1 className="text-2xl text-center">Analytic Page</h1>
 
       <p className="mt-10">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. In obcaecati
@@ -11,4 +11,6 @@ export default function Home() {
       </p>
     </div>
   );
-}
+};
+
+export default Analytic;
