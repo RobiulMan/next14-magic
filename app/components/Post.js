@@ -1,7 +1,8 @@
 const fetchposts = async () => {
-  await new Promise((resolve) => {
+  await new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve();
+      // resolve();
+      reject();
     }, 2000);
   });
   return ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. In obcaecati
