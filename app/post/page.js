@@ -1,14 +1,13 @@
+import { Suspense } from "react";
+import Post from "../components/Post";
 
 const HeavyPosts = () => {
   return (
     <div className="py-10 m-20">
       <h1 className="text-2xl text-center">Heavy page</h1>
-      <p className="mt-10">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In obcaecati
-        libero enim similique adipisci perspiciatis laboriosam est dolor magni,
-        officia ipsa, tempore, facilis recusandae aliquam culpa et unde tempora
-        porro!
-      </p>
+      <Suspense fallback={<h1 className="text-center">Loading ...</h1>}>
+        <Post />
+      </Suspense>
     </div>
   );
 };
