@@ -1,5 +1,4 @@
 const Analytic = () => {
-  throw new Error("there is an error occured");
   return (
     <div className="py-10 m-20">
       <h1 className="text-2xl text-center">Analytic Page</h1>

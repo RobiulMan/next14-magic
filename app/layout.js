@@ -18,13 +18,13 @@ export default function RootLayout({ children }) {
               <CustomeLink path="/">Home </CustomeLink>
             </li>
             <li>
-              <CustomeLink prefetch={false} path="/dashboard/settings">
+              <CustomeLink prefetch={false} path="/settings">
                 Settings
               </CustomeLink>
             </li>
 
             <li>
-              <CustomeLink path="/dashboard/analytics">Analytics</CustomeLink>
+              <CustomeLink path="/analytics">Analytics</CustomeLink>
             </li>
             <li>
               <CustomeLink path="/post">Post</CustomeLink>

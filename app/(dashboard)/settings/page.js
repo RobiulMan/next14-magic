@@ -16,9 +16,8 @@ const Settings = () => {
 
       <br />
       <br />
-      <Suspense >
+      <Suspense>
         <SortProducts />
-
       </Suspense>
     </div>
   );
