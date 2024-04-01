@@ -1,10 +1,15 @@
 import comments from "@/app/data/comments";
+import { redirect } from "next/navigation";
 
 export async function GET(_request, context) {
   const { params } = context;
   const commentId = params.id;
 
   const findComment = comments.find((item) => item.id == commentId);
+  console.log(findComment == undefined);
+  if (findComment == undefined) {
+    redirect("/api/comments");
+  }
 
   return Response.json(findComment);
 }
